@@ -34,8 +34,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-sanity-image",
       options: {
-        projectId: process.env.SANITY_PROJECT_ID,
-        dataset: process.env.SANITY_DATASET,
+        projectId: 'fx4pgtx0',
+        dataset: 'production',
         defaultImageConfig: {
           quality: 100,
           fit: "max",
@@ -60,8 +60,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-sanity',
       options: {
-        projectId: process.env.SANITY_PROJECT_ID,
-        dataset: process.env.SANITY_DATASET,
+        projectId: 'fx4pgtx0',
+        dataset: 'production',
         apiVersion: "v1"
       }
     },
