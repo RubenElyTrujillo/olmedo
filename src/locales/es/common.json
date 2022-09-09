@@ -1,0 +1,19 @@
+{
+  "es": "ESP",
+  "en":  "ENG",
+  "services": "Servicios",
+  "team": "Equipo",
+  "contact": "Contacto",
+  "name": "Nombre",
+  "mail": "Correo",
+  "phone": "Teléfono",
+  "message": "Mensaje",
+  "placeholder": "Escribe tu mensaje",
+  "send": "Enviar",
+  "privacy": "Aviso de Privacidad",
+  "credits": "Hecho por Latente",
+  "pName": "Nombre Completo",
+  "pMail": "Correo Electrónico",
+  "pPhone": "Número Telefónico",
+  "location": "Ubicación"
+}

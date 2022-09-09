@@ -1,0 +1,19 @@
+{
+  "es": "ESP",
+  "en":  "ENG",
+  "services": "Services",
+  "team": "Team",
+  "contact": "Contact",
+  "name": "Name",
+  "mail": "Mail",
+  "phone": "Telephone",
+  "message": "Message",
+  "placeholder": "Write your message",
+  "send": "Send",
+  "privacy": "Privacy Policy",
+  "credits": "Site by Latente",
+  "pName": "Full Name",
+  "pMail": "E-mail",
+  "pPhone": "Phone Number",
+  "location": "Location"
+}

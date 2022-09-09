@@ -1,0 +1,529 @@
+@import 'variables';
+
+@media screen and (max-width: 1380px) {
+  #nosotros {
+    .title-container h2 {
+      font-size: 4.8vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #nosotros {
+    .texts-container {
+      grid-column: 2 / span 6;
+    }
+
+    .about-image {
+      grid-column: 9 / span 7;
+    }
+  }
+
+  #team {
+    .title-container {
+      grid-column: 2 / -1;
+    }
+
+    .list {
+      grid-column: 2 / span 7;
+    }
+
+    .name {
+      font-size: $text;
+    }
+  }
+
+  #contacto {
+    div {
+      grid-column: 1 / span 5;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  #servicios .hero,
+  #contacto .hero {
+    height: 75vh;
+  }
+
+  h3 {
+    font-size: $title-mobile;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 24px;
+  }
+
+  .number {
+    font-size: $title-mobile;
+  }
+
+  .text,
+  .cta {
+    font-size: $cta;
+  }
+
+  .small {
+    font-size: $layout;
+  }
+
+  header {
+    height: 112px;
+    flex-direction: column;
+    margin: 0 24px;
+    padding-top: 24px;
+
+    .logo {
+      width: 184px;
+    }
+  }
+
+  footer {
+    grid-template-rows: auto;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+
+    .rights,
+    .privacy {
+      grid-column: 1 / span 1;
+      width: fit-content;
+      margin-bottom: 8px;
+    }
+
+    .mail,
+    .credits {
+      grid-column: 2 / span 1;
+      width: fit-content;
+      margin-bottom: 8px;
+    }
+
+    .fb,
+    .tw {
+      grid-column: 3 / span 1;
+    }
+
+    .icon {
+      grid-column: 4 / span 1;
+      grid-row: 1 / span 2;
+      align-self: center;
+      justify-self: end;
+    }
+  }
+
+  #nosotros,
+  #servicios .grid,
+  #team {
+    padding: 48px 0 120px;
+
+    .number {
+      grid-column: 4 / span 1;
+      text-align: end;
+    }
+  }
+
+  #nosotros {
+    .title-container {
+      grid-column: 1 / span 4;
+      grid-row: 2;
+      max-height: 88px;
+      text-align: left;
+
+      h2 {
+        font-size: 5.5vw;
+      }
+    }
+
+    .title-container:nth-child(3) {
+      grid-row: 3;
+    }
+
+    .title-container:nth-child(4) {
+      grid-row: 4;
+      margin-bottom: 48px;
+    }
+
+    .title-container:nth-child(5) {
+      grid-row: 6;
+      margin-bottom: 100px;
+
+      h2 {
+        font-size: $big-title-mobile;
+      }
+    }
+
+    .texts-container {
+      grid-column: 1 / span 4;
+      grid-row: 7;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+
+      h2 {
+        text-align: left;
+      }
+
+      a {
+        margin: 0 auto;
+      }
+    }
+
+    .about-image {
+      grid-column: 1 / span 4;
+      grid-row: 5;
+      height: 130vw;
+      margin-bottom: 48px;
+    }
+
+    .text {
+      margin-bottom: 56px;
+    }
+
+    .small {
+      margin-bottom: 72px;
+    }
+  }
+
+  #servicios {
+    .title {
+      h2 {
+        font-size: $title-mobile;
+      }
+    }
+
+    h2.black {
+      font-size: $big-title-mobile;
+    }
+
+    .text {
+      grid-column: 1 / -1;
+      margin-bottom: 96px;
+      text-align: center;
+    }
+
+    .list {
+      grid-column: 1 / -1;
+      margin-bottom: 96px;
+    }
+  }
+
+  #team {
+    .title-container {
+      grid-column: 1 / -1;
+      text-align: center;
+
+      h2 {
+        font-size: $big-title-mobile;
+      }
+    }
+
+    .texts-container {
+      grid-column: 1 / -1;
+    }
+
+    .list {
+      grid-column: 1 / -1;
+    }
+
+    .name {
+      font-size: $cta;
+    }
+
+    .open-button {
+      width: 12px;
+      height: 12px;
+    }
+
+    .bio {
+      font-size: $layout;
+    }
+
+    .bio-container img {
+      height: 60vw;
+      margin-bottom: 32px;
+    }
+  }
+
+  #contacto {
+    .title-container {
+      grid-column: 1 / -1;
+      margin-bottom: 56px;
+      text-align: center;
+
+      h2 {
+        font-size: $big-title-mobile;
+      }
+    }
+
+    .number {
+      grid-column: 4 / span 1;
+      text-align: end;
+    }
+
+    .hero .gatsby-image-wrapper {
+      margin-top: 30%;
+    }
+
+    .address {
+      grid-column: 1 / span 2;
+      margin-bottom: 48px;
+    }
+
+    .address:nth-child(3) {
+      margin-bottom: 16px;
+    }
+
+    .phones {
+      grid-column: 1 / -1;
+
+      p {
+        margin-bottom: 4px;
+      }
+    }
+
+    form {
+      grid-column: 1 / -1;
+    }
+
+    div {
+      grid-column: 1 / -1;
+    }
+
+    .message {
+      grid-column: 1 / -1;
+    }
+
+    textarea {
+      height: 230px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contacto .hero .gatsby-image-wrapper {
+    margin-top: 15%;
+  }
+
+  footer {
+
+    .fb,
+    .tw {
+      margin: 0 0 0 auto;
+    }
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .success-container {
+    h1 {
+      max-width: 70%;
+      font-size: 8vw;
+    }
+
+    p {
+      max-width: 80%;
+      text-align: center;
+    }
+  }
+
+  h1,
+  h2,
+  #hero .title .Typewriter {
+    max-width: 80%;
+    font-size: $tagline-small;
+  }
+
+  #hero {
+    .gatsby-image-wrapper {
+      display: none;
+    }
+
+    .mobile {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    p {
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: 15%;
+      font-family: $america;
+      color: #B5B5B5;
+      transform: translate(-50%, 0);
+      -webkit-transform: translate(-50%, 0);
+    }
+  }
+
+  #nosotros {
+    .title-container h2 {
+      max-width: unset;
+      font-size: 5vw;
+    }
+  }
+
+  #contacto {
+    .address {
+      grid-column: 1 / -1;
+    }
+  }
+
+  header {
+    position: absolute;
+
+    ul {
+      li {
+        display: none;
+      }
+
+      li:last-child {
+        display: block;
+        position: absolute;
+        top: 32px;
+        right: -16px;
+      }
+    }
+
+    .logo {
+      position: fixed;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  footer {
+    height: 214px;
+
+    .rights,
+    .privacy,
+    .mail,
+    .credits {
+      grid-column: 1 / span 3;
+    }
+
+    .rights {
+      grid-row: 1;
+    }
+
+    .privacy {
+      grid-row: 2;
+      margin-bottom: 32px;
+    }
+
+    .mail {
+      grid-row: 3;
+    }
+
+    .credits {
+      grid-row: 4;
+      margin-bottom: 0;
+    }
+
+    .icon {
+      height: 28px;
+      grid-row: 3 / span 2;
+      align-self: flex-end;
+    }
+
+    .fb {
+      grid-column: 4 / span 1;
+      grid-row: 1;
+      margin-bottom: 8px;
+    }
+
+    .tw {
+      grid-column: 4 / span 1;
+      grid-row: 2;
+    }
+
+  }
+
+  #nosotros {
+
+    .title-container:nth-child(4),
+    .about-image {
+      margin-bottom: 104px;
+    }
+
+    .title-container:nth-child(5) {
+      margin-bottom: 64px;
+    }
+  }
+
+  #servicios .hero,
+  #contacto .hero {
+    height: 100vw;
+  }
+
+  #servicios {
+    .list {
+      span {
+        display: none;
+      }
+
+      li {
+        font-size: 14px;
+        line-height: 1;
+      }
+    }
+  }
+
+  #team {
+    .title-container {
+      margin-bottom: 56px;
+    }
+
+    .container-data div {
+      flex-direction: column;
+    }
+
+    .bio {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 40px;
+    }
+
+    .bio-container img {
+      width: 100%;
+      height: 115vw;
+    }
+  }
+
+  #contacto {
+    padding-bottom: 104px;
+
+    form {
+      margin-bottom: 24px;
+    }
+
+    .grid {
+      padding-top: 136px;
+    }
+
+    .hero .gatsby-image-wrapper {
+      margin-top: 15%;
+    }
+
+    .title h2 {
+      font-size: 8vw;
+    }
+
+    .title-container h2 {
+      font-size: 16vw;
+    }
+  }
+
+  .privacy-container {
+    h1 {
+      max-width: unset;
+      font-size: 30px;
+    }
+  }
+}
