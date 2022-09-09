@@ -1,5 +1,8 @@
 [[redirects]]
-force = true
+force = false
 from = "/"
 status = 301
 to = "/es"
+
+[context.production]
+  environment = { NODE_VERSION = "16.17.0" }
